@@ -16,3 +16,11 @@ npm install @react-navigation/native-stack
 ```
 npx expo start
 ```
+
+## Команды:
+
+- `navigation` - prop компонента Screen
+- `navigation.navigate('Details')` - функция маршрутизации по адресу в собственном навигаторе стека
+- `navigation.push('Details')` - функция добавления нового маршрута
+- `navigation.goBack()` - функция возврата в предыдущий адрес
+- `navigation.popToTop()` - функция возврата в корневой адрес
